@@ -1,0 +1,44 @@
+.header {
+  background-color: #212731;
+  color: #d1d6da;
+  padding: 10px 0px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  box-shadow: -1px 4px 20px #212731;
+  z-index: 1;
+}
+.nav-links {
+  width: 89%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.nav-links .links {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.nav-links .links .search {
+  margin-left: -10px;
+}
+
+.nav-links .links a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-links .links a:hover {
+  text-decoration: underline;
+}

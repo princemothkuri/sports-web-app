@@ -1,0 +1,110 @@
+.registration-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background: #fbfcfd;
+  background-image: url("../../../public/images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.registration-form .hero {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 72px;
+  height: 100%;
+}
+
+.registration-form .hero form {
+  padding: 20px;
+  backdrop-filter: blur(50px);
+  box-shadow: 0px 0px 30px #212731;
+  border-radius: 20px;
+  min-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.registration-form .hero form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.registration-form .hero form .form-group h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.registration-form .hero form .form-group label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.registration-form .hero form .form-group input {
+  height: 35px;
+  border: none;
+  background-color: #fff4ed;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.registration-form .hero form .form-group div label {
+  font-weight: 400;
+}
+
+.registration-form .hero form .form-group .ratio-btn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.registration-form .hero form .form-group button {
+  height: 35px;
+  background-color: #f3f9ff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  color: black;
+  font-size: 14px;
+}
+
+.registration-form .hero form .form-group button:hover {
+  background-color: #c7dff7;
+}
+
+.registration-form .hero form .form-group button:active {
+  background-color: #f3f9ff;
+}
+
+.registration-form .hero form .form-group p span {
+  font-size: 14px;
+}
+
+.registration-form .hero form button {
+  height: 42px;
+  background-color: #1b88f4;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  color: white;
+  font-size: 16px;
+}
+
+.registration-form .hero form button:hover {
+  background-color: #0370dd;
+}
+
+.registration-form .hero form button:active {
+  background-color: #1b88f4;
+}

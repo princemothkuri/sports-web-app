@@ -1,0 +1,135 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background: #fbfcfd;
+  background-image: url("../../../public/images/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #1B88F4 --> button color           #FFF4ED               #F3F9FF*/
+
+.hero {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 55px;
+  margin-top: 72px;
+}
+
+.hero .welcome-message {
+  text-align: center;
+  color: #d1d6da;
+}
+
+.hero .welcome-message h1 {
+  font-size: 32px;
+}
+
+.hero .welcome-message p {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.hero .main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  height: 350px;
+}
+
+ul {
+  list-style: disc;
+}
+
+.hero .main .features {
+  height: 100%;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 20px 20px;
+  gap: 20px;
+  color: #b0b2b4;
+}
+
+.hero .main .features h2 {
+  font-size: 22px;
+}
+
+.hero .main .features ul {
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.hero .main .call-to-action {
+  align-self: center;
+  margin-top: -50px;
+}
+
+.hero .main .call-to-action .btn {
+  width: 232px;
+  height: 48px;
+  border-radius: 12px;
+  background: transparent;
+  border: 1px solid #b0b2b4;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero .main .call-to-action .btn:hover {
+  background: #b0b2b4;
+}
+
+.hero .main .call-to-action .btn:active {
+  background: #7e8081;
+}
+
+.hero .main .call-to-action .btn a {
+  text-decoration: none;
+}
+
+.hero .main .sports-events {
+  height: 100%;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 20px 20px;
+  gap: 20px;
+  color: #b0b2b4;
+}
+
+.hero .main .sports-events h2 {
+  font-size: 22px;
+}
+
+.hero .main .sports-events ul {
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
