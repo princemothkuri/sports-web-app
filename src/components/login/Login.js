@@ -17,7 +17,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8000/login", formData)
+      .post("https://sports-web-app-server.onrender.com/login", formData)
       .then((response) => {
         dispatch(userLogin({ login: true }));
         dispatch(setToken({ token: response.data.token }));

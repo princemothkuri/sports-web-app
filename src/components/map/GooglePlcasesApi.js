@@ -86,7 +86,7 @@ const SearchLocationInput = () => {
     };
     console.log(latLng);
     axios
-      .post("http://localhost:8000/search", {
+      .post("https://sports-web-app-server.onrender.com/search", {
         jwtoken: token,
         latitude: latLng.lat,
         longitude: latLng.lng,
@@ -130,11 +130,14 @@ const SearchLocationInput = () => {
           dispatch(setLocations([{ lat, lng, currentUser: true }]));
           dispatch(setUserLocation({ lat, lng, currentUser: true }));
           axios
-            .post("http://localhost:8000/currentuserlocation", {
-              jwtoken: token,
-              latitude: lat,
-              longitude: lng,
-            })
+            .post(
+              "https://sports-web-app-server.onrender.com/currentuserlocation",
+              {
+                jwtoken: token,
+                latitude: lat,
+                longitude: lng,
+              }
+            )
             .then((response) => {
               console.log(response);
             })
@@ -155,11 +158,14 @@ const SearchLocationInput = () => {
             dispatch(setUserLocation({ lat, lng, currentUser: true }));
             dispatch(setLocations([{ lat, lng, currentUser: true }]));
             axios
-              .post("http://localhost:8000/currentuserlocation", {
-                jwtoken: token,
-                latitude: lat,
-                longitude: lng,
-              })
+              .post(
+                "https://sports-web-app-server.onrender.com/currentuserlocation",
+                {
+                  jwtoken: token,
+                  latitude: lat,
+                  longitude: lng,
+                }
+              )
               .then((response) => {
                 console.log(response);
               })

@@ -22,7 +22,7 @@ const RegistrationForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8000/register", formData)
+      .post("https://sports-web-app-server.onrender.com/register", formData)
       .then((response) => {
         alert("SignUp successful!");
         navigate("/login");
